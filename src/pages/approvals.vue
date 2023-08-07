@@ -33,7 +33,7 @@ import EmployeeChange from "../components/Approval/EmployeeChange.vue";
 import SecondaryPosition from "../components/Approval/SecondaryPosition.vue";
 import NewDepartments from "../components/Approval/NewDepartments.vue";
 import RemoveDepartments from "../components/Approval/RemoveDepartments.vue";
-import EmployeeRemoval from "../components/Approval/EmployeeRemoval.vue";
+// import EmployeeRemoval from "../components/Approval/EmployeeRemoval.vue";
 import Budget from "../components/Approval/Budget.vue";
 
 const tabs = [
@@ -44,7 +44,7 @@ const tabs = [
   { name: "Secondary Positions", component: SecondaryPosition },
   { name: "New Departments", component: NewDepartments },
   { name: "Remove Departments", component: RemoveDepartments },
-  { name: "Employee Removal", component: EmployeeRemoval },
+  // { name: "Employee Removal", component: EmployeeRemoval },
   { name: "Budget", component: Budget },
 ];
 
