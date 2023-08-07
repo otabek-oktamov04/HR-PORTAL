@@ -1,0 +1,308 @@
+* {
+  font-family: "Helvetica Neue", sans-serif !important;
+  font-weight: 500;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.date {
+  --dp-font-size: 13px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500 !important;
+}
+
+span {
+  font-weight: 500 !important;
+}
+
+.multiselect-tag {
+  white-space: pre-wrap !important;
+}
+
+i {
+  font-family: "Font Awesome 6 Free" !important;
+  font-weight: bold !important; /* Adjust the Font Awesome font-family based on your installation */
+}
+
+/* button:focus{
+  background-color: transparent !important;
+  color: black !important;
+} */
+.multiselect-tag {
+  padding: 5px;
+  font-size: 13px !important;
+}
+
+.multiselect-option {
+  font-size: 15px !important;
+}
+
+.multiselect {
+  height: auto !important;
+  --ms-max-height: 20rem !important;
+}
+
+.bs-btn {
+  color: #000;
+  background-color: #add8e6;
+  border: 1px solid cadetblue;
+  font-size: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* Button Hover Styles */
+.bs-btn:hover {
+  color: #000;
+  background-color: cadetblue;
+  border-color: cadetblue;
+}
+
+/* Button Active Styles */
+.bs-btn:active {
+  color: #000;
+  background-color: lightblue;
+  border-color: lightblue;
+}
+
+/* Button Disabled Styles */
+.bs-btn:disabled {
+  color: #000;
+  background-color: lightblue;
+  border-color: lightblue;
+  cursor: not-allowed;
+}
+
+/* Second Button Styles */
+.bs-btn2 {
+  color: #fff;
+  background-color: mediumseagreen;
+  border: 1px solid seagreen;
+  font-size: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* Second Button Hover Styles */
+.bs-btn2:hover {
+  color: #fff;
+  background-color: seagreen;
+  border-color: seagreen;
+}
+
+/* Second Button Active Styles */
+.bs-btn2:active {
+  color: #fff;
+  background-color: mediumseagreen;
+  border-color: mediumseagreen;
+}
+
+/* Second Button Disabled Styles */
+.bs-btn2:disabled {
+  color: #fff;
+  background-color: mediumseagreen;
+  border-color: mediumseagreen;
+  cursor: not-allowed;
+}
+
+/* Basic styles for the button */
+.view-button {
+  color: #fff;
+  background-color: gray;
+  border-color: dimgray;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+/* Hover styles */
+.view-button:hover {
+  color: #fff;
+  background-color: dimgray;
+  border-color: dimgray;
+  /* Add any other necessary styles for the hover state */
+}
+
+/* Active styles */
+.view-button:active {
+  color: #fff;
+  background-color: gray;
+  border-color: gray;
+  /* Add any other necessary styles for the active state */
+}
+
+/* Disabled styles */
+.view-button:disabled {
+  color: #fff;
+  background-color: gray;
+  border-color: gray;
+  /* Add any other necessary styles for the disabled state */
+}
+
+/* Basic styles for the "Add" button */
+.add-button {
+  color: #fff;
+  background-color: #f58025;
+  border-color: orange;
+  font-size: 10px;
+  text-transform: uppercase;
+  width: 120px !important;
+}
+
+/* Hover styles */
+.add-button:hover {
+  color: #fff;
+  background-color: orange;
+  border-color: orange;
+  /* Add any other necessary styles for the hover state */
+}
+
+/* Active styles */
+.add-button:active {
+  color: #fff;
+  background-color: #f58025;
+  border-color: #f58025;
+  /* Add any other necessary styles for the active state */
+}
+
+/* Disabled styles */
+.add-button:disabled {
+  color: #fff;
+  background-color: #f58025;
+  border-color: #f58025;
+  /* Add any other necessary styles for the disabled state */
+}
+
+/* Basic styles for the "Clear" button */
+.clear-button {
+  color: #fff;
+  background-color: gray;
+  border-color: dimgray;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+/* Hover styles */
+.clear-button:hover {
+  color: #fff;
+  background-color: dimgray;
+  border-color: dimgray;
+  /* Add any other necessary styles for the hover state */
+}
+
+/* Active styles */
+.clear-button:active {
+  color: #fff;
+  background-color: gray;
+  border-color: gray;
+  /* Add any other necessary styles for the active state */
+}
+
+/* Disabled styles */
+.clear-button:disabled {
+  color: #fff;
+  background-color: gray;
+  border-color: gray;
+  /* Add any other necessary styles for the disabled state */
+}
+
+/* Basic styles for the "Search" button */
+.search-button {
+  color: #fff;
+  background-color: #f58025;
+  border-color: orange;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+/* Hover styles */
+.search-button:hover {
+  color: #fff;
+  background-color: orange;
+  border-color: orange;
+  /* Add any other necessary styles for the hover state */
+}
+
+/* Active styles */
+.search-button:active {
+  color: #fff;
+  background-color: #f58025;
+  border-color: #f58025;
+  /* Add any other necessary styles for the active state */
+}
+
+/* Disabled styles */
+.search-button:disabled {
+  color: #fff;
+  background-color: #f58025;
+  border-color: #f58025;
+  /* Add any other necessary styles for the disabled state */
+}
+
+tbody tr {
+  color: #040404;
+  font-weight: 500;
+  font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
+  font-size: 12px;
+}
+
+thead tr {
+  color: black !important;
+  font-weight: 700 !important;
+  font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+}
+
+.view-page {
+  color: black;
+  font-weight: 700;
+  font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
+  font-size: 12px;
+}
+
+button {
+  padding: 0 !important;
+  text-transform: uppercase;
+  font-size: 10px !important;
+  font-weight: 400 !important;
+  min-width: 76px !important;
+  max-width: 180px !important;
+  height: 30px !important ;
+}
+
+label {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  text-transform: uppercase;
+}
+
+select {
+  height: 30px !important;
+  font-weight: 400 !important;
+}
+
+input {
+  height: 30px !important;
+  font-size: 12px !important;
+}
+
+.multiselect-tags-search {
+  z-index: -1;
+}
+
+.v-sidebar-menu .vsm--link_level-1 .vsm--title {
+  font-weight: 700 !important;
+}
+
+.v-sidebar-menu .vsm--link_level-2 .vsm--title {
+  font-weight: 400 !important;
+}
